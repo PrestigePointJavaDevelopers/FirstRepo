@@ -25,7 +25,13 @@ public class CubeOfDigitInNumber {
 			sc.close();
 	    }
     }
+
 public static Sting getCompanyName(){
   return "Prestige POint";
  }
+
+public static String getName(){
+   return ""Ragini;
+  }
+
 }

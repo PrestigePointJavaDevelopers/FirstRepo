@@ -18,7 +18,9 @@ public class CubeOfDigitInNumber {
 			if(rem%3==0)
 			{
 		      cube=rem*rem*rem;
+
 		      logger.info("cube of  "+rem+" divisible by 3 is = "+cube);
+
 			}
 			 
 			number =number/10;
