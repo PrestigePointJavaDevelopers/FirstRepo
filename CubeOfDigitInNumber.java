@@ -18,10 +18,13 @@ public class CubeOfDigitInNumber {
 			if(rem%3==0)
 			{
 		      cube=rem*rem*rem;
-		      System.out.println("Cube of teh Number is  "+rem+" divisible by 3 is = "+cube);
+
+		      logger.info("cube of  "+rem+" divisible by 3 is = "+cube);
+
 			}
 			 
-			number=number/10;
+			number =number/10;
+ System.out.println("Final number is  "+ number );
 			sc.close();
 	    }
     }
