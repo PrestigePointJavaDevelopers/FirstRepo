@@ -25,4 +25,7 @@ public class CubeOfDigitInNumber {
 			sc.close();
 	    }
     }
+public static Sting getCompanyName(){
+  return "Prestige POint";
+ }
 }
